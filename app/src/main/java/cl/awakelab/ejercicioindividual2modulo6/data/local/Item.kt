@@ -1,4 +1,4 @@
-package data.local
+package cl.awakelab.ejercicioindividual2modulo6.data.local
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

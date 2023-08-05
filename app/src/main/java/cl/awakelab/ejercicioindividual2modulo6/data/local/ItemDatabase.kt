@@ -1,4 +1,4 @@
-package data.local
+package cl.awakelab.ejercicioindividual2modulo6.data.local
 
 import android.content.Context
 import androidx.room.Database
@@ -7,6 +7,8 @@ import androidx.room.RoomDatabase
 
 @Database(entities = [Item::class], version = 1)
 abstract class ItemDatabase: RoomDatabase() {
+
+    abstract fun getItemsDao(): ItemDao
 
     companion object {
         @Volatile

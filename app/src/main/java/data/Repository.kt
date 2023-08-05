@@ -1,8 +1,8 @@
 package data
 
 import androidx.lifecycle.LiveData
-import data.local.Item
-import data.local.ItemDao
+import cl.awakelab.ejercicioindividual2modulo6.data.local.Item
+import cl.awakelab.ejercicioindividual2modulo6.data.local.ItemDao
 
 class Repository(private val itemDao: ItemDao) {
 
